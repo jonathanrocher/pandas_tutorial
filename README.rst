@@ -30,10 +30,10 @@ be used occasionally:
 - beautifulsoup4
 - html5lib
 
-To test your installation, please execute the :py:`test_python_install.py`
-script using the `nosetests` executable:
+To test your installation, please execute the :py:`check_env.py`
+script:
 
-    $ nosetests test_python_install.py
+    $ python check_env.py
     ....
     ----------------------------------------------------------------------
     Ran ** tests in ** s
