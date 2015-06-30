@@ -104,4 +104,4 @@ script:
 Questions? Problems?
 ====================
 Questions? Problems? Don't wait, shoot me and the rest of the group an email on
-the tutorial mailing list.
+the tutorial mailing list: https://groups.google.com/forum/#!forum/scipy2015-pandas-tutorial
