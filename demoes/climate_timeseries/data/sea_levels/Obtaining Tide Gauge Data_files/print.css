@@ -1,0 +1,310 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 6:37:02 Mar 21, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:24 Jul 3, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*****************************
+Global
+*****************************/
+
+a {
+	text-decoration: none;
+	/*color: #0078AB;*/
+}
+
+a:visited {
+	color: blue;
+	/*color: #0078AB;*/
+}
+
+#global {
+	margin: 0 auto 0 auto; 
+	width: 900px; 
+	text-align:left;
+}
+
+
+/****************************
+Images
+****************************/
+
+img.front { 
+	display:block;
+	margin:0 auto;
+	text-align: center;
+}
+
+img.top_logo {
+	margin:-15px 0px 0px 0px; 
+}
+
+
+/*****************************
+Header
+*****************************/
+
+#header {
+	display: none;
+}
+
+/******************************
+Top Menu
+******************************/
+
+#TopMenuBar {
+	display: none;
+}
+	
+
+/*****************************************
+BREADCRUMBS
+*****************************************/
+
+#BreadCrumbs {
+	display: none;
+}
+
+
+/*****************************************
+SIDEBAR
+*****************************************/
+
+.SideBar   {
+	display: none;
+}
+
+
+/*****************************************
+MAIN CONTENT
+*****************************************/
+
+#MainContent{
+	width: auto;
+	font: 10pt Arial;
+	margin: 0 5%;
+	padding: 0;
+	border: 0;
+}
+
+#MainContent table {
+font: 10pt Arial ;
+}
+
+#MainContent h2 {
+font: 14pt Arial ;
+font-weight: normal;
+margin: 15px 0px 5px 0px;
+}
+
+#MainContent h1 {
+font: 20pt Arial ;
+font-weight: normal;
+text-align: center;
+}
+
+#Table01 {
+font: 10pt Arial ;
+border-spacing: 20px 5px;
+}
+
+#Table01 th {
+background: #0078AB  ;
+color : #FFFFFF;
+}
+
+#img_right {
+margin: 5px 5px 5px 5px;
+float: right;
+}
+
+#redtext {
+color: red;
+}
+
+#miniMap
+{
+	float:right;
+	margin:0px 0px 0px 0px;
+}
+
+#warning
+{
+	color:red;
+	text-align: center;
+}
+
+.indiv_stat {
+	padding: 1px 0px 0px 0px;
+	display:block;
+	clear:right;
+}
+
+.indiv_stat h2 {
+	background-color: #0078AB;
+	color: #FFF;
+}
+
+.indiv_stat h2 a {
+        font: 16px Arial ;
+        text-decoration: underline;
+        background-color: #0078AB;
+        color: #FFF;
+}
+
+.plot_left {
+	height: 150px;
+	display: table;
+}
+
+.plot_left p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.plot_left img {
+	float: left;
+}
+
+#rlr_diagram p {
+	line-height: 1.5;
+}
+
+#rlr_diagram h2 {
+	background-color: #0078AB;
+	color: #FFF;
+}
+
+#rlr_diagram img {
+	width: auto;
+	display:block;
+}
+
+table.mapkey {
+        border-style: solid;
+        border-color: #0078AB;
+        border-width: 5px;
+        width: 350px;
+        /*background-color: #FFF6F1;*/
+}
+
+table.mapkey td {
+        border-width: 0px;
+        padding: 0px;
+}
+
+table.mapkey td#currentst {
+        border-width: 0px;
+        padding: 0px;
+        color: blue;
+}
+
+table.mapkey td#nearrlr {
+        border-width: 0px;
+        padding: 0px;
+        /*color: #EFE238;*/
+        color: #F0BE00;
+}
+
+table.mapkey td#nearmetric {
+        border-width: 0px;
+        padding: 0px;
+        color: #FE776A;
+}
+
+/*****************************************
+Contacts pages
+*****************************************/
+
+.concntry{
+	margin: 5px 0px 5px 0px;
+}
+
+.concard{
+	border: 1px solid #0078AB;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 5px 5px 0px;
+	overflow: auto;
+	position: relative;
+}
+
+.conname{
+	padding-bottom: 5px;
+}
+
+.conadd{
+	width: 360px;
+	float: left;
+	padding-left: 20px;
+	position: relative;
+}
+
+.condetails{
+	width: 277px;
+	float: right;
+	position: relative;
+}
+
+.condetails ul {
+	list-style-type:none;
+	width:100%;
+	display:table-row;
+}
+
+.condetails li{
+	display:table-cell;
+	text-align:left; 
+}
+
+
+.condetails li:first-child {
+	width: 57px;
+}
+
+
+/*****************************************
+FOOTER
+*****************************************/
+
+#Footer {
+	display: none;
+}
+
+/*****************************
+Level 2 and 3 Nav styles
+*****************************/
+
+li.deep {
+	list-style-type: disc;
+	color:#0078AB
+}
+
+ul#SideBarNav2 {
+	text-decoration: none;
+	list-style-type: circle;
+	background: #FFF6F1;
+	display: block;
+	font: 10pt Arial ;
+	color : #0078AB;
+        margin: 0 0 0 0;
+        padding: 1px 1px 1px 15px;
+}
+
+ul#SideBarNav3 {
+	text-decoration: none;
+	list-style-type: circle;
+	background:#FFF6F1;
+	display: block;
+	font: 10pt Arial ;
+	color : #0078AB;
+	margin: 0 0 0 0;
+        padding: 1px 1px 1px 15px;
+}
+
