@@ -97,8 +97,8 @@ should be enough to type::
 Step2: Download the material (all platforms)
 --------------------------------------------
 
-Once git is available, you will need to clone this repository. Its SSH URL is
-git@github.com:jonathanrocher/pandas_tutorial.git. To do that, you should be
+Once git is available, you will need to clone this repository. Its HTTPS URL is
+https://github.com/jonathanrocher/pandas_tutorial.git. To do that, you should be
 able to start a command prompt/terminal (or the git bash prompt if you chose to
 only make git accessible from there) and type::
 
