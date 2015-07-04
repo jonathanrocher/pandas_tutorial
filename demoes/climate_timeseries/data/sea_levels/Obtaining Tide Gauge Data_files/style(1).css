@@ -1,0 +1,80 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 3:28:21 Apr 7, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:23 Jul 3, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* tables */
+table.tablesorter {
+	/*background-color: #CDCDCD;*/
+	background-color: #0078AB;
+	font-family:"Courier New";
+	font-size: 10pt;
+	width: 100%;
+	text-align: left;
+	margin:10px 0pt 15px;
+	color: #FFFFFF;
+	float: right;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	/*background-color: #e6EEEE;*/
+	background-color: #0078AB;
+	border: 1px solid #FFF;
+	text-align: left;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(/web/20150407032821/http://www.psmsl.org/javascript/blue/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	text-align: left;
+	font-family:arial;
+}
+table.tablesorter tbody td {
+	/*color: #3D3D3D;*/
+	color: #000000;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	/*background-color:#F0F0F6;*/
+	background-color:#FF0000;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(/web/20150407032821/http://www.psmsl.org/javascript/blue/asc.gif);
+	/*border: 2px solid #FF0000;*/
+	color: #000000;
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(/web/20150407032821/http://www.psmsl.org/javascript/blue/desc.gif);
+	/*border: 2px solid #FF0000;*/
+	color: #000000;
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+/*background-color: #8dbdd8;*/
+/*background-color: #0078AB;*/
+background-color: #FFD1B1;
+}
+pre {
+  font-family:courier;}
+.useWhiteSpace {
+  white-space:pre;}
+table.tablesorter p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	white-space:pre; 
+}
+a {
+onclick: "return false";}
+
