@@ -102,7 +102,7 @@ git@github.com:jonathanrocher/pandas_tutorial.git. To do that, you should be
 able to start a command prompt/terminal (or the git bash prompt if you chose to
 only make git accessible from there) and type::
 
-    git clone git@github.com:jonathanrocher/pandas_tutorial.git
+    git clone https://github.com/jonathanrocher/pandas_tutorial.git
 
 That will create a new folder named SciPy2015_pandas_tutorial/ with all the
 content you will need: the slides I will go through (slides.pdf), and a folder
