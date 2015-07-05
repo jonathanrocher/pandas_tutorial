@@ -23,13 +23,15 @@ or Continuum's Anaconda (http://continuum.io/downloads). That is due to the
 number of dependencies it has that we will want to play with during the
 tutorial.
 
-**Note for Enthought Canopy users:** statsmodels is a package we will need, but
-isn't shipped with the free version of Canopy. Once you have installed Canopy,
-go to the package manager (in the *Tools* menu) and install it.
+**Note for Enthought Canopy users:** statsmodels is a free package we will
+need, but isn't shipped with the free version of Canopy. If you have
+installed Canopy Express, go to the package manager (in the *Tools* menu),
+search for it in the free packages and install it. This will require for you to
+login inside Canopy (best done in the welcome screen).
 
 
 You already have your distribution
-------------------------------------
+----------------------------------
 Version of python
 *****************
 The tutorial should be pretty agnostic of whether you are running
