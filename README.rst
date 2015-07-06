@@ -27,9 +27,9 @@ tutorial.
 installer of Canopy doesn't contain some of the packages we will need. After
 installation, please login inside the application (on the welcome screen). Then
 go to the package manager (in the Tools menu) and install any of the packages
-below that are not already present (statsmodels, lxml, beautifulSoup4, html5lib
-are the only ones that may not be present depending on the version of installer
-you choose).
+below that are not already present. Specifically, statsmodels, lxml,
+beautifulSoup4 (note the 4, not just BeautifulSoup!), html5lib are the only
+ones that may not be present depending on the version of installer you choose.
 
 
 You already have your distribution
@@ -58,7 +58,7 @@ In certain parts of the class, demoes or exercises, the following packages will
 be used occasionally:
 - statsmodels 0.6+
 - lxml
-- beautifulsoup4
+- beautifulsoup4 (careful to get BeautifulSoup4, not just BeautifulSoup!)
 - html5lib
 
 
@@ -139,4 +139,6 @@ a command prompt, move **into** the SciPy2015_pandas_tutorial/ folder and run::
 Questions? Problems?
 ====================
 Questions? Problems? Don't wait, shoot me and the rest of the group an email on
-the tutorial mailing list: https://groups.google.com/forum/#!forum/scipy2015-pandas-tutorial
+the tutorial mailing list: scipy2015-pandas-tutorial@googlegroups.com. You can
+view all message and sign up at
+https://groups.google.com/forum/#!forum/scipy2015-pandas-tutorial
