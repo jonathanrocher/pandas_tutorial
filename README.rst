@@ -23,13 +23,13 @@ or Continuum's Anaconda (http://continuum.io/downloads). That is due to the
 number of dependencies it has that we will want to play with during the
 tutorial.
 
-**Note for Enthought Canopy users:** The regular installer of Canopy doesn't
-contain some of the packages we will need. After installation, please login
-inside the application (on the welcome screen). Then go to
-the package manager (in the Tools menu) and install any of the packages below
-that are not already present (statsmodels, lxml, beautifulSoup4, html5lib are
-the only ones that may not be present depending on the version of installer you
-choose).
+**Note for Enthought Canopy users:** To reduce download time, the regular
+installer of Canopy doesn't contain some of the packages we will need. After
+installation, please login inside the application (on the welcome screen). Then
+go to the package manager (in the Tools menu) and install any of the packages
+below that are not already present (statsmodels, lxml, beautifulSoup4, html5lib
+are the only ones that may not be present depending on the version of installer
+you choose).
 
 
 You already have your distribution
