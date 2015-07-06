@@ -14,6 +14,8 @@ of the tutorial as the wifi at the ATT center can be flakey.
 Python distribution and Packages needed
 =======================================
 
+Downloading a pre-made distribution
+------------------------------------
 If you don't already have a working distribution, by far the easiest way to get
 everything you need for this tutorial is to download
 Enthought Canopy (https://store.enthought.com/, the free version is enough),
@@ -21,6 +23,19 @@ or Continuum's Anaconda (http://continuum.io/downloads). That is due to the
 number of dependencies it has that we will want to play with during the
 tutorial.
 
+**Note for Enthought Canopy users:** To reduce download time, the regular
+installer of Canopy doesn't contain some of the packages we will need. After
+installation, please login inside the application (on the welcome screen). Then
+go to the package manager (in the Tools menu) and install any of the packages
+below that are not already present (statsmodels, lxml, beautifulSoup4, html5lib
+are the only ones that may not be present depending on the version of installer
+you choose).
+
+
+You already have your distribution
+----------------------------------
+Version of python
+*****************
 The tutorial should be pretty agnostic of whether you are running
 Python 2.7+ or Python 3.3+, but I will be using Python 2.7 and my material has
 been tested somewhat more on Python 2. If you don't already have a
@@ -28,6 +43,8 @@ distribution, I recommend that you intall a Python2 distribution. If you
 already have a Python3 distribution, you will be fine, and might just have to
 replace some print statements by functions in occasional places.
 
+Packages needed
+***************
 If you already have a working distribution, you will need to make sure that you
 install or update all needed packages. To be able to run the examples, demoes
 and exercises, you must have the following packages installed:
@@ -39,11 +56,14 @@ and exercises, you must have the following packages installed:
 
 In certain parts of the class, demoes or exercises, the following packages will
 be used occasionally:
-- statsmodels
+- statsmodels 0.6+
 - lxml
 - beautifulsoup4
 - html5lib
 
+
+Testing that you are all set
+----------------------------
 To test your installation, please execute the :py:`check_env.py`
 script:
 
@@ -78,7 +98,7 @@ for line ending, the option commonly chosen is
 
 * Mac OSX
 ---------
-If you don't already have git available, a good git client for Windows can be
+If you don't already have git available, a good git client for Mac can be
 downloaded at http://www.git-scm.com/downloads.
 It installs git in /usr/local/git/bin/, so to have it available from any
 terminal, you will want to make sure that location is on your PATH environment
