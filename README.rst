@@ -23,11 +23,13 @@ or Continuum's Anaconda (http://continuum.io/downloads). That is due to the
 number of dependencies it has that we will want to play with during the
 tutorial.
 
-**Note for Enthought Canopy users:** statsmodels is a free package we will
-need, but isn't shipped with the free version of Canopy. If you have
-installed Canopy Express, go to the package manager (in the *Tools* menu),
-search for it in the free packages and install it. This will require for you to
-login inside Canopy (best done in the welcome screen).
+**Note for Enthought Canopy users:** The regular installer of Canopy doesn't
+contain some of the packages we will need. After installation, please login
+inside the application (on the welcome screen). Then go to
+the package manager (in the Tools menu) and install any of the packages below
+that are not already present (statsmodels, lxml, beautifulSoup4, html5lib are
+the only ones that may not be present depending on the version of installer you
+choose).
 
 
 You already have your distribution
