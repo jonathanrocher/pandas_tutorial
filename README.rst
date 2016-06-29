@@ -1,10 +1,10 @@
 ===============================================================
-SciPy2015 tutorial: Analyzing and Manipulating Data with Pandas
+SciPy2015 & SciPy2016 tutorial: Analyzing and Manipulating Data with Pandas
 ===============================================================
 
 This repository contains all the material needed by students registered to the
-Pandas tutorial of **SciPy 2015** (http://scipy2015.scipy.org/ehome/115969/289057/?&)
-on July Mon July 6th 2015.
+Pandas tutorial of **SciPy 2016** (http://scipy2016.scipy.org/)
+on July Tuesday July 12th 2016.
 
 For a smooth experience, you will need to make sure that you install or update
 your python distribution and download the tutorial material **before** the day
@@ -23,12 +23,11 @@ or Continuum's Anaconda (http://continuum.io/downloads). That is due to the
 number of dependencies it has that we will want to play with during the
 tutorial.
 
-**Note for Enthought Canopy users:** To reduce download time, the regular
-installer of Canopy doesn't contain some of the packages we will need. After
+**Note for Enthought Canopy users:** To reduce download time, the Canopy
+installer doesn't contain some of the packages we will need. After
 installation, please login inside the application (on the welcome screen). Then
 go to the package manager (in the Tools menu) and install any of the packages
-below that are not already present. Specifically, statsmodels, lxml,
-beautifulSoup4 (note the 4, not just BeautifulSoup!), html5lib are the only
+below that are not already present. Specifically, statsmodels, and pytables
 ones that may not be present depending on the version of installer you choose.
 
 
@@ -48,18 +47,19 @@ Packages needed
 If you already have a working distribution, you will need to make sure that you
 install or update all needed packages. To be able to run the examples, demoes
 and exercises, you must have the following packages installed:
-- pandas 0.15+
+- pandas 0.17+
 - numpy 1.8+
 - matplotlib 1.4+
-- ipython 2.0+ (for running, experimenting and doing exercises)
-- nose (only to test your distribution)
+- pytables 3.1.1+
+- jupyter 1.0 or ipython 4.0+ (for running, experimenting and doing exercises)
+- nose (only to test your python installation)
 
-In certain parts of the class, demoes or exercises, the following packages will
-be used occasionally:
-- statsmodels 0.6+
+In certain parts of the notebook, the following packages will be used
+occasionally:
 - lxml
 - beautifulsoup4 (careful to get BeautifulSoup4, not just BeautifulSoup!)
 - html5lib
+- statsmodels 0.6+
 
 
 Testing that you are all set
@@ -124,13 +124,13 @@ only make git accessible from there) and type::
 
     git clone https://github.com/jonathanrocher/pandas_tutorial.git
 
-That will create a new folder named SciPy2015_pandas_tutorial/ with all the
-content you will need: the slides I will go through (slides.pdf), and a folder
-of exercises.
+That will create a new folder named ``pandas_tutorial/`` with all the
+content you will need, mostly a folder named ``climate_timeseries`` with the
+demo notebook that we will follow for the whole tutorial.
 
 As you get closer to the day of the tutorial, it is highly recommended to
 update this repository, as I will be improving it this week. To update it, open
-a command prompt, move **into** the SciPy2015_pandas_tutorial/ folder and run::
+a command prompt, move **into** the ``pandas_tutorial/`` folder and run::
 
     $ git pull
 
@@ -138,7 +138,15 @@ a command prompt, move **into** the SciPy2015_pandas_tutorial/ folder and run::
 
 Questions? Problems?
 ====================
-Questions? Problems? Don't wait, shoot me and the rest of the group an email on
-the tutorial mailing list: scipy2015-pandas-tutorial@googlegroups.com. You can
-view all message and sign up at
-https://groups.google.com/forum/#!forum/scipy2015-pandas-tutorial
+Questions? Problems? Don't wait! Shoot me and the rest of the group a message
+on the tutorial's slack channel::
+
+    https://scipy2016.slack.com/messages/pandas/
+
+That requires to create a (free) slack account on
+``https://scipy2016.slack.com``, following the instructions in the email you
+(should have) received from Jill Cowan on June 29th 2016. Once the account is
+created, you will need to click on ``CHANNELS (22)`` in the left banner to find
+the pandas channel. If you have issues connecting to slack or finding the
+pandas channel, please shoot SciPy and me an email at ``SciPy@enthought.com``
+and ``jonathanrocher@gmail.com``.
