@@ -1,6 +1,6 @@
-===============================================================
+===========================================================================
 SciPy2015 & SciPy2016 tutorial: Analyzing and Manipulating Data with Pandas
-===============================================================
+===========================================================================
 
 This repository contains all the material needed by students registered to the
 Pandas tutorial of **SciPy 2016** (http://scipy2016.scipy.org/)
