@@ -47,10 +47,10 @@ Packages needed
 If you already have a working distribution, you will need to make sure that you
 install or update all needed packages. To be able to run the examples, demoes
 and exercises, you must have the following packages installed:
-- pandas 0.15+
-- numpy 1.9+
-- matplotlib 1.4+
-- pytables 3.1.1+
+- pandas 0.18+
+- numpy 1.10+
+- matplotlib 1.5+
+- pytables 3.1+
 - jupyter 1.0 or ipython 4.0+ (for running, experimenting and doing exercises)
 - nose (only to test your python installation)
 
