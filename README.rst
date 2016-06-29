@@ -47,8 +47,8 @@ Packages needed
 If you already have a working distribution, you will need to make sure that you
 install or update all needed packages. To be able to run the examples, demoes
 and exercises, you must have the following packages installed:
-- pandas 0.17+
-- numpy 1.8+
+- pandas 0.15+
+- numpy 1.9+
 - matplotlib 1.4+
 - pytables 3.1.1+
 - jupyter 1.0 or ipython 4.0+ (for running, experimenting and doing exercises)
@@ -99,17 +99,17 @@ for line ending, the option commonly chosen is
 * Mac OSX
 ---------
 If you don't already have git available, a good git client for Mac can be
-downloaded at http://www.git-scm.com/downloads.
-It installs git in /usr/local/git/bin/, so to have it available from any
+downloaded at ``http://www.git-scm.com/downloads``.
+It installs git in ``/usr/local/git/bin/``, so to have it available from any
 terminal, you will want to make sure that location is on your PATH environment
 variable.
 
 
 * Linux
 -------
-The easiest on Linux is to install git from your distro's package manager (yum
-for redhat based distros, apt-get for Ubuntu, ...). For example on Ubuntu, it
-should be enough to type::
+The easiest on Linux is to install git from your distro's package manager
+(``yum`` for redhat based distros, ``apt-get`` for Ubuntu, ...). For example on
+Ubuntu, it should be enough to run::
 
     $ sudo apt-get install git
 
