@@ -99,8 +99,8 @@ for line ending, the option commonly chosen is
 * Mac OSX
 ---------
 If you don't already have git available, a good git client for Mac can be
-downloaded at ``http://www.git-scm.com/downloads``.
-It installs git in ``/usr/local/git/bin/``, so to have it available from any
+downloaded at http://www.git-scm.com/downloads.
+It installs git in /usr/local/git/bin/, so to have it available from any
 terminal, you will want to make sure that location is on your PATH environment
 variable.
 
@@ -108,7 +108,7 @@ variable.
 * Linux
 -------
 The easiest on Linux is to install git from your distro's package manager
-(``yum`` for redhat based distros, ``apt-get`` for Ubuntu, ...). For example on
+(yum for redhat based distros, apt-get for Ubuntu, ...). For example on
 Ubuntu, it should be enough to run::
 
     $ sudo apt-get install git
@@ -124,13 +124,13 @@ only make git accessible from there) and type::
 
     git clone https://github.com/jonathanrocher/pandas_tutorial.git
 
-That will create a new folder named ``pandas_tutorial/`` with all the
-content you will need, mostly a folder named ``climate_timeseries`` with the
+That will create a new folder named pandas_tutorial/ with all the
+content you will need, mostly a folder named climate_timeseries/ with the
 demo notebook that we will follow for the whole tutorial.
 
 As you get closer to the day of the tutorial, it is highly recommended to
 update this repository, as I will be improving it this week. To update it, open
-a command prompt, move **into** the ``pandas_tutorial/`` folder and run::
+a command prompt, move **into** the pandas_tutorial/ folder and run::
 
     $ git pull
 
