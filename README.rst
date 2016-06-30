@@ -27,8 +27,8 @@ tutorial.
 installer doesn't contain some of the packages we will need. After
 installation, please login inside the application (on the welcome screen). Then
 go to the package manager (in the Tools menu) and install any of the packages
-below that are not already present. Specifically, statsmodels, and pytables
-ones that may not be present depending on the version of installer you choose.
+below that are not already present. Specifically, statsmodels isn't part of the
+free installer.
 
 
 You already have your distribution
