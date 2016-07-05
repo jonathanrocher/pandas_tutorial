@@ -35,7 +35,7 @@ def test_import_statsmodels():
 
 def test_read_html():
     import pandas
-    pandas.read_html(join(HERE, "demos", "climate_timeseries", "data",
+    pandas.read_html(join(HERE, "climate_timeseries", "data",
                      "sea_levels", "Obtaining Tide Gauge Data.html"))
 
 
