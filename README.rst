@@ -28,19 +28,23 @@ installer doesn't contain some of the packages we will need. After
 installation, please login inside the application (on the welcome screen). Then
 go to the package manager (in the Tools menu) and install any of the packages
 below that are not already present. Specifically, statsmodels and pytables
-aren't part of the free installer.
+aren't part of the free installer, though they can be installed with a free
+account. If you prefer the command line, run:
+
+    enpkg statsmodels pytables
+
+**Note for Anaconda users:** The Python 3.5 installer has all the packages
+needed except html5lib. Install it with a:
+
+    conda install html5lib
 
 
 You already have your distribution
 ----------------------------------
 Version of python
 *****************
-The tutorial should be pretty agnostic of whether you are running
-Python 2.7+ or Python 3.3+, but I will be using Python 2.7 and my material has
-been tested somewhat more on Python 2. If you don't already have a
-distribution, I recommend that you intall a Python2 distribution. If you
-already have a Python3 distribution, you will be fine, and might just have to
-replace some print statements by functions in occasional places.
+The tutorial has been tested and can be run under Python 2.7.10+ and
+Python 3.5+. Bring the flavor you want.
 
 Packages needed
 ***************
@@ -50,16 +54,13 @@ and exercises, you must have the following packages installed:
 - pandas 0.18+
 - numpy 1.10+
 - matplotlib 1.5+
-- pytables 3.1+
-- jupyter 1.0 or ipython 4.0+ (for running, experimenting and doing exercises)
-- nose (only to test your python installation)
-
-In certain parts of the notebook, the following packages will be used
-occasionally:
+- html5lib 0.999+
 - lxml
-- beautifulsoup4 (careful to get BeautifulSoup4, not just BeautifulSoup!)
-- html5lib
+- BeautifulSoup4 (careful to get BeautifulSoup4, not just BeautifulSoup!)
+- jupyter 1.0 or ipython 4.0+ (for running, experimenting and doing exercises)
 - statsmodels 0.6+
+- pytables 3.1+
+- nose (only to test your python installation)
 
 
 Testing that you are all set
@@ -73,6 +74,16 @@ script:
     Ran ** tests in ** s
 
     OK
+
+If you see some import errors, try to run:
+
+    enpkg <PACKAGE NAME>
+
+or:
+
+    conda install <PACKAGE NAME>
+
+depending on your distribution.
 
 
 Content needed
@@ -148,5 +159,4 @@ That requires to create a (free) slack account on
 (should have) received from Jill Cowan on June 29th 2016. Once the account is
 created, you will need to click on ``CHANNELS (22)`` in the left banner to find
 the pandas channel. If you have issues connecting to slack or finding the
-pandas channel, please shoot SciPy and me an email at ``SciPy@enthought.com``
-and ``jonathanrocher@gmail.com``.
+pandas channel, ping me on twitter `@jonrocher`.
