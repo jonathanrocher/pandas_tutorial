@@ -159,5 +159,4 @@ That requires to create a (free) slack account on
 (should have) received from Jill Cowan on June 29th 2016. Once the account is
 created, you will need to click on ``CHANNELS (22)`` in the left banner to find
 the pandas channel. If you have issues connecting to slack or finding the
-pandas channel, please shoot SciPy and me an email at ``SciPy@enthought.com``
-and ``jonathanrocher@gmail.com``.
+pandas channel, ping me on twitter `@jonrocher`.
