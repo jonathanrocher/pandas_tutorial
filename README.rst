@@ -29,7 +29,9 @@ installation, please login inside the application (on the welcome screen). Then
 go to the package manager (in the Tools menu) and install any of the packages
 below that are not already present. Specifically, statsmodels and pytables
 aren't part of the free installer, though they can be installed with a free
-account.
+account. If you prefer the command line, run:
+
+    enpkg statsmodels pytables
 
 **Note for Anaconda users:** The Python 3.5 installer has all the packages
 needed except html5lib. Install it with a:
