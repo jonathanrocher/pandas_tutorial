@@ -75,6 +75,16 @@ script:
 
     OK
 
+If you see some import errors, try to run:
+
+    enpkg <PACKAGE NAME>
+
+or:
+
+    conda install <PACKAGE NAME>
+
+depending on your distribution.
+
 
 Content needed
 ===============
