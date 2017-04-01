@@ -1,3 +1,6 @@
+
+Video: https://www.youtube.com/watch?v=6ohWS7J1hVA&t=0s
+
 ===========================================================================
 SciPy2015 & SciPy2016 tutorial: Analyzing and Manipulating Data with Pandas
 ===========================================================================
